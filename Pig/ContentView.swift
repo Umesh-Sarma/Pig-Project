@@ -18,6 +18,8 @@ struct ContentView: View {
                 Image("Pig").resizable().frame(width: 150, height: 150)
                 CustomText(text: "Pig")
                 Spacer()
+                CustomText(text: "Turn Score: \(turnScore)")
+                CustomText(text: "Game Score: \(gameScore)")
             }
         }
     }
